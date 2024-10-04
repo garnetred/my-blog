@@ -7,4 +7,20 @@ const eleventyNavigation = {
 
 <h1>contact me</h1>
 
-{{ content | safe }}
+<form
+  action="https://formspree.io/f/YOUR_FORM_ID"
+  method="POST"
+  class="contact-form"
+>
+  <label>
+    Your email:
+    <input type="email" name="email" />
+  </label>
+
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <button type="submit">Send</button>
+</form>
