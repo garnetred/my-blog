@@ -57,12 +57,12 @@ export default async function (eleventyConfig) {
     type: "atom", // or "rss", "json"
     outputPath: "/feed/feed.xml",
     stylesheet: "pretty-atom-feed.xsl",
-    templateData: {
-      eleventyNavigation: {
-        key: "feed",
-        order: 4,
-      },
-    },
+    // templateData: {
+    //   eleventyNavigation: {
+    //     key: "feed",
+    //     order: 6,
+    //   },
+    // },
     collection: {
       name: "posts",
       limit: 10,
@@ -70,10 +70,11 @@ export default async function (eleventyConfig) {
     metadata: {
       language: "en",
       title: "Blog Title",
-      subtitle: "This is a longer description about your blog.",
-      base: "https://example.com/",
+      subtitle:
+        "This is a blog about web and browser extension development, user experience, accessibility, and tech in general.",
+      base: "https://decembergarnetsmith.com/",
       author: {
-        name: "Your Name",
+        name: "December Garnet-Smith",
       },
     },
   });
