@@ -1,8 +1,8 @@
 export default {
-	title: "December Garnet-Smith",
+	title: "december garnet-Smith",
 	url: "https://decembergarnetsmith.com",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "A blog about .",
 	author: {
 		name: "Your Name Here",
 		url: "https://example.com/about-me/"
