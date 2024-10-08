@@ -274,3 +274,10 @@ header {
 button.formkit-submit {
   background-color: #4bb543 !important;
 }
+
+/* form */
+
+.contact-form-inputs {
+  display: flex;
+  flex-direction: column;
+}
