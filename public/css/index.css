@@ -277,7 +277,56 @@ button.formkit-submit {
 
 /* form */
 
-.contact-form-inputs {
+form {
   display: flex;
   flex-direction: column;
+  text-align: left;
+  margin: auto 5%;
+}
+
+.title {
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: black;
+}
+
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.form-entry {
+  display: block;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* .form-label {
+  margin: 10px auto !important;
+  min-width: 300px;
+  padding: 10px;
+  margin: 30px auto;
+} */
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: #0e3721;
+  font-size: 20px;
 }
