@@ -4,7 +4,7 @@ export default {
   language: "en",
   description: "all things web + ux + tech",
   author: {
-    name: "Your Name Here",
-    url: "https://example.com/about-me/",
+    name: "December Garnet-Smith",
+    url: "https://decembergarnetsmith.com/about",
   },
 };
