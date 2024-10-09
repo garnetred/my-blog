@@ -1,10 +1,10 @@
 export default {
-	title: "December Garnet-Smith",
-	url: "https://decembergarnetsmith.com",
-	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
-	author: {
-		name: "Your Name Here",
-		url: "https://example.com/about-me/"
-	}
-}
+  title: "december garnet-smith",
+  url: "https://decembergarnetsmith.com",
+  language: "en",
+  description: "all things web + ux + tech",
+  author: {
+    name: "December Garnet-Smith",
+    url: "https://decembergarnetsmith.com/about",
+  },
+};
