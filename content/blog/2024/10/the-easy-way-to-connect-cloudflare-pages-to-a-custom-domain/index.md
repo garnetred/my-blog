@@ -14,7 +14,7 @@ Note: This guide assumes that you already have a site set up and deployed with C
 
 ### Steps to Connect CloudFlare Pages to a Custom Domain
 
-1. Go to [your dashboard](https://dash.cloudflare.com).
+1. Go to <a href="https://dash.cloudflare.com" target="_blank">your dashboard</a>.
 2. In the left-hand sidebar, select "Workers & Pages" from the drop-down menu.
 3. You should now be on the Workers & Pages Overview page. From there, select the project to which you'd like to add a custom domain.
 4. Now you should see a page for the project you'd like to deploy using a custom domain. At the top of the page it'll say "Workers & Pages/" followed by the name of your project. If you integrated the site with Github, this will be the name of the repository.
@@ -26,7 +26,7 @@ Note: This guide assumes that you already have a site set up and deployed with C
 10. Then you'll be asked to review the imported DNS records. If all looks well you can click "continue to activation."
 11. You'll be given a list of two name servers. You will need to update your domain registrar to point to these two name servers. This can take up to 48 hours.
 12. Once your domain name is active on CloudFlare, you should receive an email alerting you.
-13. (optional) To set `www` to redirect to the domain apex, you'll need to [follow these instructions](https://developers.cloudflare.com/pages/how-to/www-redirect/).
+13. (optional) To set `www` to redirect to the domain apex, you'll need to <a href="https://developers.cloudflare.com/pages/how-to/www-redirect/" target="_blank">follow these instructions</a>
 
 ### Pitfalls
 
