@@ -5,7 +5,7 @@ categories:
   - ""
 tags:
   - "adventures-in-software-consulting"
-description: "A short tutorial on how to connect cloudflare pages to an external custom domain."
+description: "A short tutorial on the right way to connect cloudflare pages to an external custom domain."
 ---
 
 Recently I decided to migrate both my technical blog and business website away from WordPress to CloudFlare Pages. For the most part it was a good experience, but I ran into issues trying to connect a custom domain to CloudFlare. I wanted to write a tutorial about this to prevent others from going through the same issue. This guide assumes that you already have a site set up and deployed with CloudFlare Pages and now just need to add a domain.The step-by-step guide is below.
