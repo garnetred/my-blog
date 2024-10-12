@@ -5,7 +5,7 @@ categories:
   - ""
 tags:
   - "tutorials"
-description: "A short tutorial on the right way to connect cloudflare pages to an external custom domain."
+description: "A short tutorial on the right way to connect CloudFlare Pages to an external custom domain."
 ---
 
 Recently I decided to migrate both my technical blog and business website away from WordPress to Eleventy. As part of that process I also decided to deploy my website myself using CloudFlare Pages. I ran into several issues trying to connect a custom domain to CloudFlare, so I decided to write a tutorial about it to save others some time.
