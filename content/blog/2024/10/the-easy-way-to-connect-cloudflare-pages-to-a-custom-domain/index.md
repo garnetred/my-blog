@@ -26,7 +26,7 @@ Note: This guide assumes that you already have a site set up and deployed with C
 10. Then you'll be asked to review the imported DNS records. If all looks well you can click "continue to activation."
 11. You'll be given a list of two name servers. You will need to update your domain registrar to point to these two name servers. This can take up to 48 hours.
 12. Once your domain name is active on CloudFlare, you should receive an email alerting you.
-13. (optional) You can set `www` to redirect to your website - unfortunately CloudFlare doesn't prompt you to do this during the setup process if you don't have it setup already. On the overview page for your domain name in the CloudFlare dashboard, on the right hand side you'll see a link to DNS Records. If you click it, you will end up on a page listing all of the current DNS records. You will be prompted to add an A, AAAA, or CNAME record for `www`. You can a new CNAME record that matches the one created by CloudFlare, except in the "Name" section you will indicate `www`.
+13. (optional) To set `www` to redirect to the domain apex, you'll need to [follow these instructions](https://developers.cloudflare.com/pages/how-to/www-redirect/).
 
 ### Pitfalls
 
