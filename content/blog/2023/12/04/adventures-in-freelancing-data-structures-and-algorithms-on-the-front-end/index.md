@@ -1,12 +1,13 @@
 ---
 title: "adventures in freelancing: data structures and algorithms on the front-end"
 date: "2023-12-04"
-categories: 
+categories:
   - "freelance-engineering"
-tags: 
+tags:
   - "adventures-in-freelancing"
   - "freelance-engineering"
 coverImage: "mike-van-den-bos-jf1EomjlQi0-unsplash-scaled.jpeg"
+description: "This article details the process of improving web performance on the front-end using data structures and algorithms."
 ---
 
 <figure>
@@ -68,6 +69,6 @@ The time complexity of this technique is `O(n),` which is better than both the o
 
 Without knowledge of algorithms, it would have been difficult to impossible to scale this front-end to work with larger data sets. Clearly data structures and algorithms are crucial to web performance. When striving to improve web performance on a front-end application, don't forget to start with the code.
 
-* * *
+---
 
 Want more articles like this delivered straight to your inbox? Subscribe below!

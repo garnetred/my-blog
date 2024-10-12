@@ -1,11 +1,12 @@
 ---
 title: "how to port an mv3 chrome extension to firefox"
 date: "2024-05-10"
-categories: 
+categories:
   - "browser-extensions"
-tags: 
+tags:
   - "browser-extensions"
 coverImage: "rubaitul-azad-4xmVvHRioKg-unsplash-1.jpeg"
+description: "A detailed guide on porting a Manifest Version 3 (MV3) Chrome extension to Firefox in 2024."
 ---
 
 <figure>
@@ -38,13 +39,13 @@ Firefox has some different requirements for their manifest.json than Chrome. For
 
 Firefox expects the gecko id to be either a [GUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) or a string formatted similar to an email address. (Using a real email address can result in privacy issues due to increased spam.)
 
-Here's an example of what that code might look like:  
+Here's an example of what that code might look like:
 
 ```
  "browser_specific_settings": {
-    "gecko": { 
+    "gecko": {
         "id": "{1f39e6db-82c0-4af2-a25e-3f16809b31f6}"
-    } 
+    }
   }
 ```
 
@@ -90,7 +91,7 @@ After updating the manifest.json successfully, I ran the `web-ext run` command i
 
 Now that my extension was working, I thought I could load the extension into Firefox and that would be it, similar to how extensions work in Chrome. However, [Firefox add-ons must be signed](https://wiki.mozilla.org/Add-ons/Extension_Signing) in order for them to be loaded in the browser by default. As part of this process, each add-on is also added to Mozilla's directory, even if they're unlisted. This differs considerably from Google Chrome, but does make it more difficult for someone to create and distribute a malicious extension because first they would need to create a developer account.
 
-I created a Mozilla developer account [here](https://accounts.firefox.com/) and then generated an [API key and secret](https://addons.mozilla.org/en-US/developers/addon/api/key/), both of which are needed to sign the extension. I then ran the command `web-ext sign` with the following flags:  
+I created a Mozilla developer account [here](https://accounts.firefox.com/) and then generated an [API key and secret](https://addons.mozilla.org/en-US/developers/addon/api/key/), both of which are needed to sign the extension. I then ran the command `web-ext sign` with the following flags:
 `--channel`, which can be `listed` or `unlisted` depending on whether or not the extension should be listed publicly or available for [self-distribution](https://extensionworkshop.com/documentation/publish/self-distribution/) only, `--api-key`, and `--api-secret`.
 
 Once it was signed successfully, Firefox generated a `web-ext-artifacts` folder, in which there was a new file with an `xpi` extension.
@@ -119,6 +120,6 @@ Now that I've ported a few Chrome extensions to Firefox, I think there are a few
 
 All in all, once I had the steps down, porting each extension to Firefox was pretty straightforward - but figuring this out took a long time because the docs for both browsers seemed to be a bit unclear in this area. I hope that as we move closer to June 2024 Chrome will offer more support for cross-browser extensions and APIs so porting Chrome extensions to Firefox is easier for developers in the future.
 
-* * *
+---
 
 Want more articles on browser extension development delivered straight to your inbox? Subscribe below!

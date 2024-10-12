@@ -1,11 +1,12 @@
 ---
 title: "my process for building new chrome extensions"
 date: "2023-12-01"
-categories: 
+categories:
   - "coding"
-tags: 
+tags:
   - "browser-extensions"
 coverImage: "lindsay-henwood-7_kRuX1hSXM-unsplash.jpeg"
+description: "A step-by-step guide to building your first Chrome extension using Manifest Version 3 (MV3)."
 ---
 
 <figure>
@@ -43,25 +44,31 @@ For that reason, this article only covers Chrome extensions built using Manifest
 Here are the basic files you need to build a browser extension:
 
 - manifest.json
-    - This file includes basic information about your extension such as the name, Manifest version, [permissions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions) (what your extension is allowed to do beyond basic functionality), etc.
+
+  - This file includes basic information about your extension such as the name, Manifest version, [permissions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions) (what your extension is allowed to do beyond basic functionality), etc.
 
 - background.js
-    - This is a [service worker](https://developer.chrome.com/docs/extensions/mv3/service_workers/) typically named background.js. It can access certain portions of a website such as the URL. It cannot access the same information as content.js, so you would need to send a message between the two files if you want to access that information.
+
+  - This is a [service worker](https://developer.chrome.com/docs/extensions/mv3/service_workers/) typically named background.js. It can access certain portions of a website such as the URL. It cannot access the same information as content.js, so you would need to send a message between the two files if you want to access that information.
 
 - content.js
-    - This is the [content scripts](https://developer.chrome.com/docs/extensions/mv3/content_scripts/) file, commonly named content.js. It can access the DOM within a particular webpage, but can't access the same information as background.js. You would need to send a message between the two pages in order to do so.
+
+  - This is the [content scripts](https://developer.chrome.com/docs/extensions/mv3/content_scripts/) file, commonly named content.js. It can access the DOM within a particular webpage, but can't access the same information as background.js. You would need to send a message between the two pages in order to do so.
 
 - popup.html
-    - This file dictates what a user will see when they click on the Chrome extension icon in the toolbar. I usually add information about the version number and a link to the Github repo.
+
+  - This file dictates what a user will see when they click on the Chrome extension icon in the toolbar. I usually add information about the version number and a link to the Github repo.
 
 - popup.js
-    - This file handles the JavaScript for the popup window.
+
+  - This file handles the JavaScript for the popup window.
 
 - global.css
-    - This file can be named differently, but it handles the CSS for the browser extension.
+
+  - This file can be named differently, but it handles the CSS for the browser extension.
 
 - icons
-    - This isn't an individual file but multiple files for the Chrome extension icon (what you'll see in the toolbar and on the web store should you decide to publish an extension). These icons can be 16x16, 32x32, 48x48, and/or 128x128 pixels.
+  - This isn't an individual file but multiple files for the Chrome extension icon (what you'll see in the toolbar and on the web store should you decide to publish an extension). These icons can be 16x16, 32x32, 48x48, and/or 128x128 pixels.
 
 ### building functionality
 
@@ -113,6 +120,6 @@ And there you have it - a working browser extension that removes an element from
 
 You could, theoretically; the code is on github. However, I wouldn't recommend it. If you started with the base template, you would probably end up with a working browser extension, but you wouldn't have learned how to build browser extensions. It's the same problem with following multiple tutorials and trying to build something from scratch, only to realize that you don't know how. In the future I'll write another article on the best resources for learning to build browser extensions and link it here.
 
-* * *
+---
 
 Want more articles like this delivered straight to your inbox? Subscribe below!

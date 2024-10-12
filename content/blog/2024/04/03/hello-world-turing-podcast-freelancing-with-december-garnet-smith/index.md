@@ -1,13 +1,14 @@
 ---
 title: "hello world turing podcast: freelancing with december garnet-smith"
 date: "2024-04-03"
-categories: 
+categories:
   - "freelance-engineering"
-tags: 
+tags:
   - "adventures-in-freelancing"
   - "freelance-engineering"
   - "software-engineer"
 coverImage: "turing-world.jpeg"
+description: "A podcast interview discussing the world of freelancing for software developers."
 ---
 
 ![The Hello Turing World podcast symbol.](images/turing-world.jpeg)

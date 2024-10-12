@@ -1,14 +1,15 @@
 ---
 title: "building a product in public"
 date: "2023-10-27"
-categories: 
+categories:
   - "nomadicpets-saas-products"
   - "saas-products"
-tags: 
+tags:
   - "building-in-public"
   - "nomadic-pets"
   - "saas-products"
 coverImage: "astrid-schaffner-zYsdzdspkBQ-unsplash.jpeg"
+description: "The benefits of building a product in public."
 ---
 
 <figure>

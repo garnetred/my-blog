@@ -1,13 +1,14 @@
 ---
 title: "learning python as a javascript dev: the why's"
 date: "2024-02-27"
-categories: 
+categories:
   - "learning-python"
-tags: 
+tags:
   - "data-structures-and-algorithms"
   - "dsa"
   - "learning-in-public"
 coverImage: "hitesh-choudhary-D9Zow2REm8U-unsplash-scaled.jpeg"
+description: "Why I decided to learn Python as a JavaScript software developer."
 ---
 
 <figure>

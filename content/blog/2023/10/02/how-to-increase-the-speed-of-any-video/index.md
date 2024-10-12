@@ -1,9 +1,10 @@
 ---
 title: "how to increase the speed of any video using dev tools"
 date: "2023-10-02"
-tags: 
+tags:
   - "accessibility"
   - "tutorials"
+description: "A tutorial on changing the speed of any video using developer tools."
 ---
 
 I've seen many people online struggling to watch videos that don't offer speed controls or an option for their preferred video speed, so I decided to make this tutorial. This method works for videos using the [video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) tag and doesn't require any external tools or browser extensions. You can also go through the same steps for any [audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) elements to increase or decrease audio speed.
@@ -20,7 +21,7 @@ Below is an example of what you might see - the <video> element in the HTML is h
 
 ![A Youtube page with the dev tools window open at the bottom of the page. The video on the page is highlighted at the top of the page and at the bottom in the HTML. ](images/Screen-Shot-2023-10-02-at-1.34.53-PM-1024x519.png)
 
-At this point, we're ready to write some code. You can click on the Console tab at the top of the dev tools window. In the console, you can input the following:  
+At this point, we're ready to write some code. You can click on the Console tab at the top of the dev tools window. In the console, you can input the following:
 `document.querySelector('video').playbackRate = 1.75`;
 
 This code snippet will grab the first video element in the document and adjust the video's [playback rate property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate), which determines the speed. The normal speed is 1.0; anything lower than that will decrease the speed, while a higher number will increase the speed. In this case, the code snippet will adjust the speed to 1.75, but you can replace this number with your preferred speed.

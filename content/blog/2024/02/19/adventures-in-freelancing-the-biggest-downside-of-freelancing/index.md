@@ -1,12 +1,13 @@
 ---
 title: "adventures in freelancing: the biggest downside of freelancing"
 date: "2024-02-19"
-categories: 
+categories:
   - "freelance-engineering"
-tags: 
+tags:
   - "adventures-in-freelancing"
   - "freelance-engineering"
 coverImage: "francisco-de-legarreta-c-hHg9MC-G8_Y-unsplash-scaled.jpeg"
+description: "An honest examination of issues related to being a freelance developer."
 ---
 
 <figure>
