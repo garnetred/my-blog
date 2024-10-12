@@ -1,12 +1,13 @@
 ---
 title: "\"How Do I Break Into Tech\" Is the Wrong Question"
 date: "2023-09-26"
-categories: 
+categories:
   - "freelance-engineering"
-tags: 
+tags:
   - "breaking-into-tech"
   - "freelance-engineering"
 coverImage: "image.jpeg"
+description: "A no-holds-barred guide to breaking into tech."
 ---
 
 <figure>
@@ -15,7 +16,7 @@ coverImage: "image.jpeg"
 
 <figcaption>
 
-Photo by [Desola Lanre-Ologun](https://unsplash.com/@disruptxn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/IgUR1iX0mqM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
+Photo by [Desola Lanre-Ologun](https://unsplash.com/@disruptxn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/IgUR1iX0mqM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 
 </figcaption>
@@ -26,8 +27,8 @@ Photo by [Desola Lanre-Ologun](https://unsplash.com/@disruptxn?utm_source=unspl
 
 If you do a quick online search, there are lots of suggestions.
 
-You could attend a coding bootcamp or certificate program, as I did.  
-You could attend a bootcamp to teach you how to pass technical interviews, especially those that involve data structures and algorithms.  
+You could attend a coding bootcamp or certificate program, as I did.
+You could attend a bootcamp to teach you how to pass technical interviews, especially those that involve data structures and algorithms.
 You could go back to school for a bachelor’s degree in computer science. You could contribute to open source projects, network with other software engineers, sign up for a paid mentorship program, attend conferences and/or meetups, ask people in your network for referrals to open roles…the list goes on.
 
 Unfortunately, this is the wrong question. What you should be asking is “How do I _stay_ in the tech industry?”

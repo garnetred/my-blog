@@ -1,9 +1,9 @@
 ---
 title: "Why I’m Done with Live-Coding Interviews"
 date: "2023-09-25"
-categories: 
+categories:
   - "freelance-engineering"
-tags: 
+tags:
   - "freelance-engineering"
   - "technical-interviews"
 coverImage: "elisa-ventur-bmJAXAz6ads-unsplash.jpeg"

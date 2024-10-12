@@ -1,11 +1,12 @@
 ---
 title: "adventures in freelancing: freelancer to software consultant"
 date: "2024-04-19"
-categories: 
+categories:
   - "freelance-engineering"
-tags: 
+tags:
   - "adventures-in-freelancing"
 coverImage: "christina-wocintechchat-com-HocFQHhGjDE-unsplash-scaled.jpeg"
+description: "The major differences between a freelance software developer and a consultant."
 ---
 
 <figure>
@@ -32,7 +33,7 @@ I’ve especially found this to be true in the field of software engineering, si
 
 I’m still new to software consulting and I’m definitely still learning, so it’s possible that the terminology I use and the way that I refer to myself may change in the future. I should also mention that freelancing _can_ encompass the aspects I’ve described above. However, for software engineering, the term “freelancing” is not necessarily used or perceived that way. “Software consultant” seems to be easier to understand. For now, I’m leaving the term “freelancer” behind and closing out my Adventures in Freelancing series to begin my own adventures in software consulting.
 
-* * *
+---
 
 Want more articles on software consulting delivered straight to your inbox? Subscribe today!
 

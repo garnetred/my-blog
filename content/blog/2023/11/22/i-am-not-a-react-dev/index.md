@@ -2,6 +2,7 @@
 title: "i am not a react dev: holistic web development"
 date: "2023-11-22"
 coverImage: "nadine-shaabana-DRzYMtae-vA-unsplash-scaled.jpeg"
+description: "What would holistic front-end development look like? This article explores possibilities outside of JS frameworks like React."
 ---
 
 <figure>

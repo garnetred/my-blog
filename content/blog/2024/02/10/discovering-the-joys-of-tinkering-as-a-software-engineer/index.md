@@ -1,12 +1,13 @@
 ---
 title: "discovering the joys of tinkering as a software engineer"
 date: "2024-02-10"
-categories: 
+categories:
   - "coding"
-tags: 
+tags:
   - "open-source-2"
   - "software-engineer"
 coverImage: "lina-trochez-ktPKyUs3Qjs-unsplash-scaled.jpeg"
+description: "Finding nuggets of enjoyment in web development outside of traditional projects. "
 ---
 
 <figure>

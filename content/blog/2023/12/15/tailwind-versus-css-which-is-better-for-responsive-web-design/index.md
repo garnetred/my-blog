@@ -2,6 +2,7 @@
 title: "tailwind versus css: which is better for responsive web design?"
 date: "2023-12-15"
 coverImage: "firmbee-com-2mc2B5iX6as-unsplash-scaled.jpeg"
+description: "Comparing responsive web design using native CSS against CSS frameworks like tailwind."
 ---
 
 <figure>
