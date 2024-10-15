@@ -1,6 +1,8 @@
 ---
 title: "Oregon High School Shooting"
 date: "2024-08-01"
+eleventyExcludeFromCollections: true
+noRobots: true
 ---
 
 _Originally published September 17, 2014._
@@ -17,11 +19,11 @@ Coming from a source like CNN (and a verified Twitter account), we expect this s
 
 ### **Data Collection**
 
-To learn more about how this story propagated, we began a data collection using Twitter's Search API the next morning, on June 11 at 11:47AM, using the following search terms: _oregon_, _high school_, _reynolds high school_, and _school shooting_.  After collecting about 14,000 tweets, we need to filter them to find only tweets which are relevant to the story we are investigating.  Trails provides an interface to do this, in which the user can select certain "required," "optional" and "excluded" keywords or phrases, as well as set various parameters to control how Trails will use these keywords.
+To learn more about how this story propagated, we began a data collection using Twitter's Search API the next morning, on June 11 at 11:47AM, using the following search terms: *oregon*, *high school*, *reynolds high school*, and *school shooting*.  After collecting about 14,000 tweets, we need to filter them to find only tweets which are relevant to the story we are investigating.  Trails provides an interface to do this, in which the user can select certain "required," "optional" and "excluded" keywords or phrases, as well as set various parameters to control how Trails will use these keywords.
 
-As required keywords we chose _reynolds_ (the name of the high school) and _oregon high school_ .  At least one of the required keywords must appear in a tweet for it to be considered relevant (this can be changed to require all keywords, which we don't do in this case).  We also set two optional keywords: _shoot_ and _gun_.  Note that these keywords will also match terms like _shooting_ and _shooter_, or _gunman_.  These optional keywords may or may not appear in the text, controlled by a threshold value: for this story, we set the threshold value to _1_, meaning that at least one of the optional keywords must appear for a tweet to be relevant.
+As required keywords we chose *reynolds* (the name of the high school) and *oregon high school* .  At least one of the required keywords must appear in a tweet for it to be considered relevant (this can be changed to require all keywords, which we don't do in this case).  We also set two optional keywords: *shoot* and *gun*.  Note that these keywords will also match terms like *shooting* and *shooter*, or *gunman*.  These optional keywords may or may not appear in the text, controlled by a threshold value: for this story, we set the threshold value to *1*, meaning that at least one of the optional keywords must appear for a tweet to be relevant.
 
-Out of the 14,000 original search tweets, the Trails system has used our inputs to select a total of _3,686_ relevant tweets.  Then, Trails creates a variety of visualizations through which we can explore this data.  In this post we feature five of these visualizations: the **propagation graph**, the **retweet network**, the **tweeted link bibliography**, the **user search** and the **similar tweet search**.
+Out of the 14,000 original search tweets, the Trails system has used our inputs to select a total of *3,686* relevant tweets.  Then, Trails creates a variety of visualizations through which we can explore this data.  In this post we feature five of these visualizations: the **propagation graph**, the **retweet network**, the **tweeted link bibliography**, the **user search** and the **similar tweet search**.
 
 ### Propagation Graph
 
@@ -113,7 +115,7 @@ The user search lets us search for users by their screen name, and displays thei
 
 [![janinebucks](images/janinebucks-1024x429.png)](http://blogs.wellesley.edu/twittertrails/files/2014/09/janinebucks.png)
 
- A quick look at her tweets shows us that @janinebucks is a spam account.  The text of the tweets are very similar and in similar format, each containing a link.  Many contain random numbers or names of random towns unrelated to the shooting.  Looking at @ginalimp, @nicolewayne, and @News24lHOT, we see very similar tweeting behavior.  What's more, these four accounts were created within a few days of each other: @ginalimp, @nicolewayne and @janinebucks all on January 10, 2014, and @News24lHOT on January 14, 2014.  Another similarity is that all the tweets were posted using the same service: Buffer ([https://bufferapp.com/](https://bufferapp.com/)).  This app claims: "Buffer helps you manage multiple social media accounts at once. Quickly schedule content from anywhere on the web, collaborate with team members, and analyze rich statistics on how your posts perform."  This is a service to help users post automatically, and it seems like it is being utilized by a network of bots in this story.
+A quick look at her tweets shows us that @janinebucks is a spam account.  The text of the tweets are very similar and in similar format, each containing a link.  Many contain random numbers or names of random towns unrelated to the shooting.  Looking at @ginalimp, @nicolewayne, and @News24lHOT, we see very similar tweeting behavior.  What's more, these four accounts were created within a few days of each other: @ginalimp, @nicolewayne and @janinebucks all on January 10, 2014, and @News24lHOT on January 14, 2014.  Another similarity is that all the tweets were posted using the same service: Buffer ([https://bufferapp.com/](https://bufferapp.com/)).  This app claims: "Buffer helps you manage multiple social media accounts at once. Quickly schedule content from anywhere on the web, collaborate with team members, and analyze rich statistics on how your posts perform."  This is a service to help users post automatically, and it seems like it is being utilized by a network of bots in this story.
 
 We can use the **similar tweet search** to find out how many other users seem to be spamming in this story.  Clicking on the "sync" button on one of @janinebucks' tweets activates the search, which gives the following result:
 

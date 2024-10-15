@@ -1,6 +1,8 @@
 ---
 title: "technical writing portfolio"
 date: "2023-12-01"
+eleventyExcludeFromCollections: true
+noRobots: true
 ---
 
 # technical writing portfolio

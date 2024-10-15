@@ -1,6 +1,8 @@
 ---
 title: "Plane in the Sea Near Canary Islands"
 date: "2024-08-01"
+eleventyExcludeFromCollections: true
+noRobots: true
 ---
 
 _Originally published September 17, 2014 under a previous name._
@@ -21,7 +23,7 @@ On March 27, 2014, at 10:53 AM, [@rafaleonortega](https://twitter.com/rafaleono
 
 [Explore this story with the Trails system!](http://twittertrails.wellesley.edu/~trails/stories/investigate.php?id=7685735)
 
-We began collecting data about this rumor on March 27, 2014, at 12:04 PM. The search terms we used were _airplane_, _telde_, _gran canaria_ and _imagen_.  We added _avión_ after the fact, as the required keyword to filter the search results into only relevant tweets, meaning that only tweets with the term _avión_ will contribute to the visualizations we present.
+We began collecting data about this rumor on March 27, 2014, at 12:04 PM. The search terms we used were _airplane_, _telde_, _gran canaria_ and _imagen_.  We added *avión* after the fact, as the required keyword to filter the search results into only relevant tweets, meaning that only tweets with the term *avión* will contribute to the visualizations we present.
 
 ### Propagation Visualization
 
@@ -39,10 +41,10 @@ The propagation graph, showing the tweets that were written when the story first
 
 </figure>
 
-In this case study, the originating tweet appears as the first one in the graph.  
+In this case study, the originating tweet appears as the first one in the graph.
 It also happens to be the investigative tweet, reporting at 10:53 am EST that there is a plane in the sea near Telde in the Canary Islands, with a blurry picture of what appears to be an airplane in the water. Information about the originator, the user who started the rumor by tweeting the picture of the airplane, is provided as well: [@rafaleonortega](twitter.com/rafaleonortega)'s describes himself as a sports reporter, and has a small number of followers. [@rafaleonortega](http://twitter.com/rafaleonortega) is not perhaps the most credible source for breaking news, but his tweet has almost 600 retweets, so his message has been fairly well propagated, likely due to the accompanying image.
 
-The next few tweets have similar messages, talking about a plane crashing in the sea, including a tweet at 11:01 am from [@112canarias](http://twitter.com/112canarias), a verified account tweeting about emergency information in the Canary Islands (112 is similar to 911 in the US). This tweet confirms that a plane splashed down off the coast, though they do not know the number of passengers. However, less than ten minutes later, at 11:09 am, [@112canarias](http://twitter.com/112canarias) tweets again, now reporting that what was mistaken for a plane is actually a tugboat; at the same time, other verified accounts continue to report that a plane has crashed in the sea. Two tweets from unverified accounts ([@controladores](https://twitter.com/controladores) at 11:13 am with 690 retweets, and [@laprovincia\_es](https://twitter.com/laprovincia_es) at 11:14 am with 239 retweets) also report that the plane crash is false, while more accounts continue to report about the crash.
+The next few tweets have similar messages, talking about a plane crashing in the sea, including a tweet at 11:01 am from [@112canarias](http://twitter.com/112canarias), a verified account tweeting about emergency information in the Canary Islands (112 is similar to 911 in the US). This tweet confirms that a plane splashed down off the coast, though they do not know the number of passengers. However, less than ten minutes later, at 11:09 am, [@112canarias](http://twitter.com/112canarias) tweets again, now reporting that what was mistaken for a plane is actually a tugboat; at the same time, other verified accounts continue to report that a plane has crashed in the sea. Two tweets from unverified accounts ([@controladores](https://twitter.com/controladores) at 11:13 am with 690 retweets, and [@laprovincia_es](https://twitter.com/laprovincia_es) at 11:14 am with 239 retweets) also report that the plane crash is false, while more accounts continue to report about the crash.
 
 ### Timeline Visualization
 
@@ -78,9 +80,9 @@ The retweet visualization, showing the network of users who retweeted each other
 
 </figure>
 
-The main actors, users who received the most retweets, appear largest and most prominent in this graph. [@rafaleonortega](https://twitter.com/rafaleonortega) appears as the most retweeted node in the graph, by 554 different users in the dataset. [@laprovincia\_es](https://twitter.com/laprovincia_es) is also highly visible, with 236 users retweeting its tweets. These two users were highlighted before in the Propagation visualization, where [@rafaleonortega](https://twitter.com/rafaleonortega) has spread the rumor of the plane crash, and [@laprovincia\_es](https://twitter.com/laprovincia_es) tweeted denying the rumor.  Note that the clusters of accounts retweeting each of these two accounts are mostly not overlapping, indicating that each group has heard either the original story or its denial.
+The main actors, users who received the most retweets, appear largest and most prominent in this graph. [@rafaleonortega](https://twitter.com/rafaleonortega) appears as the most retweeted node in the graph, by 554 different users in the dataset. [@laprovincia_es](https://twitter.com/laprovincia_es) is also highly visible, with 236 users retweeting its tweets. These two users were highlighted before in the Propagation visualization, where [@rafaleonortega](https://twitter.com/rafaleonortega) has spread the rumor of the plane crash, and [@laprovincia_es](https://twitter.com/laprovincia_es) tweeted denying the rumor.  Note that the clusters of accounts retweeting each of these two accounts are mostly not overlapping, indicating that each group has heard either the original story or its denial.
 
-However, there is a smaller group of accounts retweeting both [@rafaleonortega](https://twitter.com/rafaleonortega) and [@laprovincia\_es](https://twitter.com/laprovincia_es). These are the users who propagated the initial false information and then propagated its correction. Clicking on these users on the web interface reveals that they have almost all retweeted first [@rafaleonortega](https://twitter.com/rafaleonortega) and then, minutes afterwards, retweeted [@laprovincia\_es](https://twitter.com/laprovincia_es)' denial. This lends credibility to [@laprovincia\_es](https://twitter.com/laprovincia_es)' information: even though less users have retweeted him, his information that the crash was a false story was conclusive for many users.
+However, there is a smaller group of accounts retweeting both [@rafaleonortega](https://twitter.com/rafaleonortega) and [@laprovincia_es](https://twitter.com/laprovincia_es). These are the users who propagated the initial false information and then propagated its correction. Clicking on these users on the web interface reveals that they have almost all retweeted first [@rafaleonortega](https://twitter.com/rafaleonortega) and then, minutes afterwards, retweeted [@laprovincia_es](https://twitter.com/laprovincia_es)' denial. This lends credibility to [@laprovincia_es](https://twitter.com/laprovincia_es)' information: even though less users have retweeted him, his information that the crash was a false story was conclusive for many users.
 
 <figure>
 
@@ -94,10 +96,10 @@ The co-retweeted graph, highlighting users who were both retweeted by a third us
 
 </figure>
 
-The co-retweeted network shown in figure highlights the main actors from the retweet network, by connecting accounts based on mutual retweeting users.  That is, if User A and User B in the co-retweeted network and connected by an edge, it means at least one other user has retweeted User A and retweeted User B. [@rafaleonortega](https://twitter.com/rafaleonortega) and [@laprovincia\_es](https://twitter.com/laprovincia_es) are connected in the co-retweeted network because of the users who retweeted both of them.  Connections indicate related content: in this case the relationship is that the content created by [@laprovincia\_es](https://twitter.com/laprovincia_es) is a response and contradiction of information from [@rafaleonortega](https://twitter.com/rafaleonortega).
+The co-retweeted network shown in figure highlights the main actors from the retweet network, by connecting accounts based on mutual retweeting users.  That is, if User A and User B in the co-retweeted network and connected by an edge, it means at least one other user has retweeted User A and retweeted User B. [@rafaleonortega](https://twitter.com/rafaleonortega) and [@laprovincia_es](https://twitter.com/laprovincia_es) are connected in the co-retweeted network because of the users who retweeted both of them.  Connections indicate related content: in this case the relationship is that the content created by [@laprovincia_es](https://twitter.com/laprovincia_es) is a response and contradiction of information from [@rafaleonortega](https://twitter.com/rafaleonortega).
 
 ### Conclusion
 
-The information that a plane had landed in the water was false.  This rumor was inspired by an image which appeared to back up the claim, so much so that verified, official emergency accounts like @112canarias posted that it was true.  However, the denial of the rumor came only minutes after it was posted, with some accounts like @112canarias correcting information they had already posted: what looked like a plane was, in fact, a tugboat (more obvious in a close up of the object):  
-http://instagram.com/p/mDPzq-kaBe/  
+The information that a plane had landed in the water was false.  This rumor was inspired by an image which appeared to back up the claim, so much so that verified, official emergency accounts like @112canarias posted that it was true.  However, the denial of the rumor came only minutes after it was posted, with some accounts like @112canarias correcting information they had already posted: what looked like a plane was, in fact, a tugboat (more obvious in a close up of the object):
+http://instagram.com/p/mDPzq-kaBe/
 Although the rumor continued to spread for hours after it was corrected, it eventually began to subside as the negation gained more attention.
