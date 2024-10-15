@@ -4,6 +4,7 @@ const eleventyNavigation = {
 	order: 3
 };
 ---
+
 # about
 
 Welcome to my blog!
