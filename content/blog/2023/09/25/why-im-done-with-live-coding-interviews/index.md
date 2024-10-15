@@ -7,6 +7,7 @@ tags:
   - "freelance-engineering"
   - "technical-interviews"
 coverImage: "elisa-ventur-bmJAXAz6ads-unsplash.jpeg"
+canonicalLink: true
 ---
 
 <figure>
@@ -31,7 +32,7 @@ However, with interviews I’ve found that it’s virtually impossible to think 
 
 But what if your brain works differently?
 
-* * *
+---
 
 In my own experience, I’ve found that my thought process doesn’t align well with live-coding interviews. When I was a kid, I could complete math problems but not articulate how I had solved them. Eventually, I learned how to explain my thought process to other people, but I’ve found that this initial experience translates to my live-coding technical interviews. Sometimes my brain will make connections and come to conclusions faster than I can articulate, so an interviewer might assume that I don’t know the answer or am doing things without thinking when that’s not the case. I oftentimes draw conclusions and make connections in ways that my interviewers do not, so they assume that I’m guessing answers that I already know. Occasionally my thoughts get jumbled and it’s hard to untangle them; it’s easy to lose my train of thought entirely. It can take me extra time to process what someone else has said. At times, I’ll read through a coding problem and my brain will have difficulty comprehending it, so I might struggle to understand what is being asked of me in the first place despite being capable of solving the problem. It can be hard for me to keep different things in mind while trying to work on a problem — I might think of one edge case, but the second edge case feels slippery, attempting to wiggle just out of my grasp as I try to focus on it.
 
@@ -77,7 +78,7 @@ As a freelance engineer, I’ve found that working with clients doesn’t requir
 
 This flexibility works a lot better for me — I’m able to focus on coding the ways that work for me, rather than trying to change my thought process to appeal to companies that likely don’t value it in the first place. I think the tech industry could learn a lot from these types of flexible interviews.
 
-* * *
+---
 
 <figure>
 
@@ -91,12 +92,12 @@ Photo by [Tachina Lee](https://unsplash.com/@chne_?utm_source=unsplash&utm_mediu
 
 </figure>
 
-* * *
+---
 
 You may be a software engineer reading this and wondering — what are the alternatives? Do I really have a choice?
 
 To which I’d say, yes, you have a choice. You can choose to interview with [companies that don’t require these types of interviews](https://github.com/poteto/hiring-without-whiteboards). You can interview with companies that offer flexibility in their interview process, with a choice of take home projects, live-coding exercises, or code reviews. If you’re someone who struggles with live-coding interviews, you can ask for alternatives. Maybe the more engineers begin demanding flexibility in this process, the more things will change, and the more inclusive technical interviewing will become.
 
-* * *
+---
 
 Want more articles like this delivered straight to your inbox? Subscribe below!

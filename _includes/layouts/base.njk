@@ -9,6 +9,7 @@
   		<link rel="icon" type="image/png" href="/img/favicon/favicon.png">
 
 		{% if noRobots == true %}<meta name="robots" content="noindex"> {% endif %}
+		{% if canonicalLink == true %}<link rel="canonical" href={{page.url}} />{% endif %}
 
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}

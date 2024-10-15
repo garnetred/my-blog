@@ -1,5 +1,5 @@
 ---
-title: "\"How Do I Break Into Tech\" Is the Wrong Question"
+title: '"How Do I Break Into Tech" Is the Wrong Question'
 date: "2023-09-26"
 categories:
   - "freelance-engineering"
@@ -8,6 +8,7 @@ tags:
   - "freelance-engineering"
 coverImage: "image.jpeg"
 description: "A no-holds-barred guide to breaking into tech."
+canonicalLink: true
 ---
 
 <figure>
@@ -17,7 +18,6 @@ description: "A no-holds-barred guide to breaking into tech."
 <figcaption>
 
 Photo by [Desola Lanre-Ologun](https://unsplash.com/@disruptxn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/IgUR1iX0mqM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
 
 </figcaption>
 
@@ -31,13 +31,13 @@ You could attend a coding bootcamp or certificate program, as I did.
 You could attend a bootcamp to teach you how to pass technical interviews, especially those that involve data structures and algorithms.
 You could go back to school for a bachelor’s degree in computer science. You could contribute to open source projects, network with other software engineers, sign up for a paid mentorship program, attend conferences and/or meetups, ask people in your network for referrals to open roles…the list goes on.
 
-Unfortunately, this is the wrong question. What you should be asking is “How do I _stay_ in the tech industry?”
+Unfortunately, this is the wrong question. What you should be asking is “How do I *stay* in the tech industry?”
 
 Don’t get me wrong — getting in is difficult, otherwise there would be little demand for the technical interview prep or coding bootcamp industries. In North America alone, the coding bootcamp industry is expected to generate $1,200 million in revenue by the year 2038, according to [a recent survey by SkyQuest Technology Consulting](https://finance.yahoo.com/news/coding-bootcamp-market-worth-2317-152100209.html). But at the end of the day, breaking into tech is something most people only do once. It’s finite. You find one opportunity, one company, one contract, steady work that pays and adds to your portfolio — and you’ve done it. You’ve “broken into” the tech industry.
 
 However, staying in the tech industry is a much bigger challenge, and not enough people are talking about it.
 
-[Half of all women in tech leave the industry by the time they turn 35.](https://www.accenture.com/_acnmedia/PDF-134/Accenture-A4-GWC-Report-Final1.pdf) According to the same study, [women leave tech almost at a 50% higher rate than men](https://www.accenture.com/_acnmedia/PDF-134/Accenture-A4-GWC-Report-Final1.pdf). This may be partly due to the gender wage gap in tech. [Women in tech consistently make less than their male counterparts](https://www.pewresearch.org/science/2021/04/01/stem-jobs-see-uneven-progress-in-increasing-gender-racial-and-ethnic-diversity/), but [the gap is even worse for Black and Latinx women in tech](https://www.pewresearch.org/science/2021/04/01/stem-jobs-see-uneven-progress-in-increasing-gender-racial-and-ethnic-diversity/). On top of that, [women in tech are less likely to be promoted than men](https://mitsloan.mit.edu/ideas-made-to-matter/women-are-less-likely-men-to-be-promoted-heres-one-reason-why) because, even when women are scored higher in terms of performance, they are scored lower than men in terms of potential. This matches [research in other industries](https://hbr.org/2021/04/how-one-company-worked-to-root-out-bias-from-performance-reviews) which shows that groups viewed as inherently less competent (women, disabled people, people of color, queer people, etc.) are judged on their _performance_, whereas white men are judged on their _potential_.
+[Half of all women in tech leave the industry by the time they turn 35.](https://www.accenture.com/_acnmedia/PDF-134/Accenture-A4-GWC-Report-Final1.pdf) According to the same study, [women leave tech almost at a 50% higher rate than men](https://www.accenture.com/_acnmedia/PDF-134/Accenture-A4-GWC-Report-Final1.pdf). This may be partly due to the gender wage gap in tech. [Women in tech consistently make less than their male counterparts](https://www.pewresearch.org/science/2021/04/01/stem-jobs-see-uneven-progress-in-increasing-gender-racial-and-ethnic-diversity/), but [the gap is even worse for Black and Latinx women in tech](https://www.pewresearch.org/science/2021/04/01/stem-jobs-see-uneven-progress-in-increasing-gender-racial-and-ethnic-diversity/). On top of that, [women in tech are less likely to be promoted than men](https://mitsloan.mit.edu/ideas-made-to-matter/women-are-less-likely-men-to-be-promoted-heres-one-reason-why) because, even when women are scored higher in terms of performance, they are scored lower than men in terms of potential. This matches [research in other industries](https://hbr.org/2021/04/how-one-company-worked-to-root-out-bias-from-performance-reviews) which shows that groups viewed as inherently less competent (women, disabled people, people of color, queer people, etc.) are judged on their *performance*, whereas white men are judged on their *potential*.
 
 \*\*\*[](https://medium.com/tech-diversity-files/the-real-reason-women-quit-tech-and-how-to-address-it-6dfb606929fd?source=post_page-----b13e5ee5cd6b--------------------------------)
 
@@ -87,6 +87,6 @@ For myself, the current answer is freelancing. I like being able to work on a wi
 
 My hope is that software engineers begin feeling more empowered and emboldened to choose a career path that works for them, even if it’s non-traditional. We can move away from the idea of breaking into tech and instead support engineers as they mold their careers to match the lives they imagine for themselves, whatever that may be.
 
-* * *
+---
 
 Want more articles like this delivered straight to your inbox? Subscribe below!
