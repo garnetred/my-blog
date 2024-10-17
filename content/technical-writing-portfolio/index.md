@@ -9,19 +9,16 @@ noRobots: true
 
 Here's a portfolio of some of my technical writing by category.
 
-## general:
+## comp sci:
 
 - [adventures in freelancing: data structures and algorithms on the front-end](https://decembergarnetsmith.com/2023/12/04/adventures-in-freelancing-data-structures-and-algorithms-on-the-front-end/)
   - This article outlines my experience improving web performance on a web application via data structures and algorithms.
 
 ## tutorials:
 
-- [my process for building new chrome extensions](https://decembergarnetsmith.com/2023/12/01/my-process-for-building-new-chrome-extensions/)
-
-  - This article outlines my current step-by-step process for building new browser extensions.
-
 - [how to increase the speed of any video using dev tools](https://decembergarnetsmith.com/2023/10/02/how-to-increase-the-speed-of-any-video/)
   - This article offers detailed instructions on altering the speed of HTML5 videos using the browser's dev tools.
+- [the easy way to connect cloudflare pages to a custom domain](/the-easy-way-to-connect-cloudflare-pages-to-a-custom-domain)
 
 ## api documentation:
 
