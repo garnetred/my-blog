@@ -1,23 +1,19 @@
 ---js
 const eleventyNavigation = {
-	key: "contact",
-	order: 5
+  key: "contact",
+  order: 5
 };
 ---
-
 <h1>contact me</h1>
-
-<body>
-  <div class="wrapper">
-    <form class="form form-entry" action="https://formspree.io/f/mlderoak" method="POST">
-      <label for="name" class="form-label">Name:</label>
-      <input type="text" class="form-entry" id="name" name="name" required/>
-      <label for="email" class="form-label">Email:</label>
-      <input type="text" class="form-entry" id="email" name="email" required/>
-      <label class="form-label" for="message">Message</label>
-      <textarea class="form-entry" id="message" name="message" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
-  <script src="app.js"></script>
-</body>
+<div class="wrapper">
+  <form class="form form-entry" action="https://formspree.io/f/mlderoak" method="POST">
+    <label for="name" class="form-label">Name:</label>
+    <input type="text" class="form-entry" id="name" name="name" required/>
+    <label for="email" class="form-label">Email:</label>
+    <input type="text" class="form-entry" id="email" name="email" required/>
+    <label class="form-label" for="message">Message</label>
+    <textarea class="form-entry" id="message" name="message" required></textarea>
+    <section class="h-captcha" data-sitekey="f8a61d84-7ac4-42c2-8f48-acc2d21a1fc0"></section>
+    <button type="submit">Submit</button>
+  </form>
+</div>
