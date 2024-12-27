@@ -11,15 +11,15 @@ I've seen many people online struggling to watch videos that don't offer speed c
 
 First, you can navigate to any web page that has a single video.
 
-Next, we're going to open the developer tools for your browser. You can right-click on the page and then click "inspect" in the dropdown menu that opens. On a Mac, you can click command + option + i. You should see something similar to the below.
+Next, we're going to open the developer tools for your browser. You can right-click on the page and then click "inspect" in the dropdown menu that opens. On a Mac, you can click `command + option + i`. You should see something similar to the below.
 
-![Developer tools open on the network tab. No network activity has been detected yet. ](images/Screen-Shot-2023-10-02-at-1.30.55-PM-1024x219.png)
+![Developer tools open on the network tab. No network activity has been detected yet.](images/Screen-Shot-2023-10-02-at-1.30.55-PM-1024x219.png)
 
-From there, you can select the inspector tool to the far upper left. Once you've selected this tool, you'll have the option to select any HTML element on the page. You can click the video itself to locate the <video> tag in the document, which should open up the Elements section. Alternatively, you can click on the "Elements" tab at the top of the dev tools window, then use command + f or the search bar to search for some variation of "<video" (minus the quotation marks).
+From there, you can select the inspector tool to the far upper left. Once you've selected this tool, you'll have the option to select any HTML element on the page. You can click the video itself to locate the `<video>` tag in the document, which should open up the Elements section. Alternatively, you can click on the "Elements" tab at the top of the dev tools window, then use `command + f` or the search bar to search for some variation of `<video>`.
 
-Below is an example of what you might see - the <video> element in the HTML is highlighted, as well as that element on the Youtube video itself.
+Below is an example of what you might see - the `<video>` element in the HTML is highlighted, as well as that element on the Youtube video itself.
 
-![A Youtube page with the dev tools window open at the bottom of the page. The video on the page is highlighted at the top of the page and at the bottom in the HTML. ](images/Screen-Shot-2023-10-02-at-1.34.53-PM-1024x519.png)
+![A Youtube page with the dev tools window open at the bottom of the page. The video on the page is highlighted at the top of the page and at the bottom in the HTML.](images/Screen-Shot-2023-10-02-at-1.34.53-PM-1024x519.png)
 
 At this point, we're ready to write some code. You can click on the Console tab at the top of the dev tools window. In the console, you can input the following:
 `document.querySelector('video').playbackRate = 1.75`;
